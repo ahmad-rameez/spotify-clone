@@ -1,14 +1,14 @@
 .login {
     display: grid;
-    place-items: center;
-    height: 100vh;
     background-color: black;
+    height: 100vh;
+    place-items: center;
 }
-
+  
 .login > img {
-    width: 100%;
+    width: 100vh;
 }
-
+  
 .login > a {
     color: white;
     text-decoration: none;

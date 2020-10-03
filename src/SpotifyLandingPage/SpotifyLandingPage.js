@@ -1,10 +1,10 @@
 import React from 'react'
-import './Player.css';
-import SideBar from './SideBar';
-import Body from './Body';
-import Footer from './Footer';
+import './SpotifyLandingPage.css';
+import SideBar from './SideBar/SideBar';
+import Body from './Body/Body';
+import Footer from './Footer/Footer';
 
-function Player({ spotify }) {
+function SpotifyLandingPage({ spotify }) {
     return (
         <div className='player'>
             <div className='player__body'>
@@ -16,4 +16,4 @@ function Player({ spotify }) {
     )
 }
 
-export default Player
+export default SpotifyLandingPage;
