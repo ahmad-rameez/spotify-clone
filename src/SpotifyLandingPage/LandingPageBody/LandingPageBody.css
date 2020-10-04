@@ -1,0 +1,58 @@
+.landingPageBody {
+    background-color: #121212;
+    flex: 1;
+    height: 100vh;
+    margin-left: 250px;
+    padding: 30px;
+    overflow-y: overlay;
+}
+
+.container__card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: rgb(40, 40, 40);
+    width: 200px;
+    height: 268px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.card > img {
+    height: 155px;
+    width: 155px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.card > h4 {
+    color: white;
+    padding: 5px 20px;
+}
+
+.card > p {
+    color: rgb(179, 179, 179);
+    font-size: small;
+    padding: 0px 20px;
+}
+
+.icon__card {
+    color: #1DB954;
+    float: right;
+    padding-right: 10px;
+    margin-top: -40px;
+}
+
+.icon__card:hover {
+    cursor: pointer;
+    transition: 100ms transform ease-in;
+    transform: scale(1.4);
+}
+
+.heading__card {
+    color: white;
+    margin-bottom: 20px;
+}

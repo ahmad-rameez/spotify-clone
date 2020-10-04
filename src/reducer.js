@@ -3,6 +3,7 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
+  myTopArtists: null,
   //Remove after developemnt
   //token: "BQDvs2_wvbTrZth-tqzQjT2VWMdz_SK46Qt2UFGJBVUEsgi6xGw5MtP4OLIlhI7jOgcKkA6oCTQlFSF1DlKuH221rasCyza2r25FgMMcJWsU7xW9OfIoQ4RJJRfHvqdnysRJmSKT5QbgxCL0va1UBVU6c-CVwyRGHf6719-_xhK7vU7U1I1m"
 };
@@ -26,6 +27,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         item: action.item,
+      };
+
+    case 'SET_MY_TOP_ARTISTS':
+      return {
+        ...state,
+        myTopArtists: action.myTopArtists,
       };
 
     case 'SET_PIANO_PLAYLIST':
