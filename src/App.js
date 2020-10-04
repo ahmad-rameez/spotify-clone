@@ -32,9 +32,12 @@ function App() {
         });
       });
 
-      spotify.getMyDevices().then((device) => {
-        console.log(device);
-      })
+      spotify.getNewReleases().then((recommended) => {
+        console.log(recommended, "recome")
+      });
+
+    
+      
 
       spotify.getUserPlaylists().then((playlists) => {
         dispatch({
