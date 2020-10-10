@@ -36,7 +36,6 @@ function App() {
         console.log(recommended, "recome")
       });
 
-    
       
 
       spotify.getUserPlaylists().then((playlists) => {
