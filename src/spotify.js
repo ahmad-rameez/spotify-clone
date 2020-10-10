@@ -2,7 +2,7 @@
 
 
 export const authEndpoint = "https://accounts.spotify.com/authorize"; 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotifyreact-e2d3e.firebaseapp.com//";
 const clientId = "2783eec2ca8d491780f9ec87ae439aa2";
 
 const scopes = [

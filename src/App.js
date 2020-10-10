@@ -32,9 +32,9 @@ function App() {
         });
       });
 
-      spotify.getNewReleases().then((recommended) => {
-        console.log(recommended, "recome")
-      });
+      // spotify.getNewReleases().then((recommended) => {
+      //   console.log(recommended, "recome")
+      // });
 
       
 
@@ -65,12 +65,6 @@ function App() {
       });
     }
 
-    // spotify.getAlbums().then((response) => (
-    //   dispatch({
-    //     type: "SET_ALBUMS",
-    //     albums: response,
-    //   })
-    // ));
   }, []);
 
   return (
